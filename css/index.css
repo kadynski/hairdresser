@@ -1,0 +1,51 @@
+body {
+    background-color:#F8EDEB ;
+    color: #202225;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* title section */
+
+h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 56px;
+  text-align: center;
+  padding: 50px ;
+}
+.nav-item {
+  font-size: 32px;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* carousel  */
+
+.carousel-section {
+  background-color: #FEC5BB;
+  text-align: center;
+  margin-top: 50px;
+}
+.carousel-img {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 0 10px #000000;
+}
+
+/* pricing section */
+
+
+#price-table {
+  margin: auto;
+  font-size: 20px;
+line-height: 1.5;
+}
+.price-div {
+  font-size: 20px;
+  padding: 70px 0 70px;
+  text-align: center;
+  background-color: #F8EDEB;
+}
