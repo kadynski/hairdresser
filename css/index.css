@@ -2,6 +2,7 @@ body {
     background-color:#F8EDEB ;
     color: #202225;
     font-family: 'Roboto', sans-serif;
+      font-size: 22px;
 }
 
 /* title section */
@@ -25,30 +26,60 @@ h1 {
   margin-top: 50px;
 }
 .carousel-img {
-  max-width: 90%;
+  max-width: 90vw;
   margin: auto;
   box-shadow: 0 0 10px #000000;
 }
+
 @media (min-width: 997px) {
   .carousel-img {
-      max-width: 70%;
+      max-width: 70vw;
   }
 }
 
 /* pricing section */
 
 
-#price-table {
+.price-table {
+    font-size: 22px;
   margin: auto;
-  font-size: 20px;
   line-height: 1.8;
 }
-.price-div {
-  font-size: 20px;
-  padding: 70px 0 70px;
+#price-div {
+  padding: 0px 0 0px;
   text-align: center;
   background-color: #F8EDEB;
 }
 .pink-row {
   background-color: #FCD5CE;
+}
+hr {
+  margin: 100px auto 100px;
+  border-top: dotted 10px #FCD5CE;
+  width: 20%;
+}
+
+/* contact */
+
+.openings {
+  padding: 0 25% 50px;
+  }
+.tel-nr {
+  color:#202225;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* footer */
+
+footer {
+  background-color: #FEC5BB;
+  margin: 70px auto 0 ;
+  padding: 70px 0 30px;
+}
+p {
+  margin: 0;
+}
+.fa-envelope-open-text{
+  color:#202225;
 }
