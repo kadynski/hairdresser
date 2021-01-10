@@ -1,6 +1,6 @@
 body {
     background-color:#F8EDEB ;
-    color: #202225;
+    color: #63474d;
     font-family: 'Roboto', sans-serif;
       font-size: 22px;
       padding:0;
@@ -13,6 +13,7 @@ h1 {
   font-size: 56px;
   text-align: center;
   padding: 50px ;
+  color: #542a2e;
 }
 .nav-item {
   font-size: 32px;
@@ -43,13 +44,14 @@ h1 {
 
 .price-table {
     font-size: 22px;
-  margin: auto;
-  line-height: 1.8;
+  margin: auto auto 30px;
+  line-height: 2;
 }
 #price-div {
-  padding: 0px 15% 0px;
+  padding: 0px 10% 0px;
   text-align: center;
   background-color: #F8EDEB;
+  font-size: 20px;
 }
 .pink-row {
   background-color: #FCD5CE;
@@ -59,11 +61,22 @@ hr {
   border-top: dotted 10px #FCD5CE;
   width: 20%;
 }
+.pricing-title{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+td {
+  padding: 0 15px;
+}
+.price-info{
+  color: #a35159;
+}
 
 /* contact */
 
 .openings {
-  padding: 0 15% 50px;
+  padding: 0 10% 50px;
+  font-size: 20px;
   }
 .tel-nr {
   color:#202225;
@@ -76,11 +89,9 @@ hr {
 footer {
   background-color: #FEC5BB;
   margin: 70px auto 0 ;
-  padding: 70px 0 30px;
+  padding: 50px 0 30px;
 }
-p {
-  margin: 0;
-}
+
 .fa-envelope-open-text{
   color:#202225;
 }
