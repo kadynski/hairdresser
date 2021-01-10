@@ -26,17 +26,17 @@ h1 {
   margin-top: 50px;
 }
 .carousel-img {
-  max-width: 90vw;
+  max-width: 300px;
   margin: auto;
   box-shadow: 0 0 10px #000000;
 }
-
+/*  
 @media (min-width: 997px) {
   .carousel-img {
       max-width: 70vw;
   }
 }
-
+ */
 /* pricing section */
 
 
