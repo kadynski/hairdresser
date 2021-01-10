@@ -3,7 +3,6 @@ body {
     color: #63474d;
     font-family: 'Roboto', sans-serif;
       font-size: 22px;
-      padding:0;
 }
 
 /* title section */
@@ -19,7 +18,9 @@ h1 {
   font-size: 32px;
   padding: 18px;
 }
-
+.nav-link{
+    color: #a35159!important;
+}
 /* carousel  */
 
 .carousel-section {
@@ -88,7 +89,7 @@ td {
 
 footer {
   background-color: #FEC5BB;
-  margin: 70px auto 0 ;
+  margin: 70px 0 0 ;
   padding: 50px 0 30px;
 }
 
