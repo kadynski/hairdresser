@@ -47,7 +47,7 @@ h1 {
   line-height: 1.8;
 }
 #price-div {
-  padding: 0px 25px 0px;
+  padding: 0px 15% 0px;
   text-align: center;
   background-color: #F8EDEB;
 }
@@ -63,7 +63,7 @@ hr {
 /* contact */
 
 .openings {
-  padding: 0 25% 50px;
+  padding: 0 15% 50px;
   }
 .tel-nr {
   color:#202225;
