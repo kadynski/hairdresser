@@ -1,1 +1,1 @@
-Website of hairdresser salon
+Website of hairdresser salon 1st project
